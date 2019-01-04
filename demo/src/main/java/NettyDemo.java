@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * @ClassName NettyDemo
  * @Description
@@ -6,4 +8,8 @@
  **/
 public class NettyDemo {
     private String port;
+    private String id;
+    private String name;
+    private String carrierId;
+    private List<String> groupCaptainUids;
 }
